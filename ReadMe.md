@@ -1,6 +1,7 @@
 # FiDoRA - Financial Decentralization of Real Assets
 
 ## Descritpion
+FiDoRA combines the freedom of decentralized finance with the power and flexibility of tokenization into one cheap and easy mobile app for real asset investors.
 FiDoRA is a mobile application developed on the Zeniq Smart Chain (ZSC).
 See [smart.zeniq.net](https://smart.zeniq.net/) and [zeniq.dev](https://www.zeniq.dev/) for more information.
 
