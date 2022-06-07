@@ -9,11 +9,17 @@ See [smart.zeniq.net](https://smart.zeniq.net/) and [zeniq.dev](https://www.zeni
 - [FlutterFlow](https://flutterflow.io/)
 ### Back end
 - Trufflesuite (Javascript) https://trufflesuite.com/
-## Further references
-- https://github.com/zeniqsmart/zencon-contract-examples
+- Contract Generator: https://wizard.openzeppelin.com/
 
-## Project page
-https://platform.zencon.bemyapp.com/#/projects/626e22fc878717003d6a1d67
+## Further references
+- https://github.com/zeniqsmart/
+- https://github.com/zeniqsmart/zencon-contract-examples/
+- https://github.com/PACF-SD/
+- https://github.com/PACF-SD/zenconProject/
+
+## Project presentation
+- https://platform.zencon.bemyapp.com/#/projects/626e22fc878717003d6a1d67
+- https://pitch.com/public/754d5250-5da2-4254-b55e-b30f46237614/
 
 ## Licence
 Distributed under the ZenCon 2022 License. See ZenCon.io for more information.
