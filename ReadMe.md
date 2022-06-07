@@ -18,7 +18,8 @@ See [smart.zeniq.net](https://smart.zeniq.net/) and [zeniq.dev](https://www.zeni
 - https://github.com/PACF-SD/zenconProject/
 
 ## Project presentation
-https://platform.zencon.bemyapp.com/#/projects/626e22fc878717003d6a1d67
+- https://platform.zencon.bemyapp.com/#/projects/626e22fc878717003d6a1d67
+- https://pitch.com/public/754d5250-5da2-4254-b55e-b30f46237614/
 
 ## Licence
 Distributed under the ZenCon 2022 License. See ZenCon.io for more information.
