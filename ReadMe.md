@@ -24,7 +24,7 @@ See [smart.zeniq.net](https://smart.zeniq.net/) and [zeniq.dev](https://www.zeni
 - https://pitch.com/public/754d5250-5da2-4254-b55e-b30f46237614/
 
 ## Deploy
-# Run Project
+### Run Project
 
 ```bash
 cd smart-contract
