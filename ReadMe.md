@@ -10,6 +10,7 @@ See [smart.zeniq.net](https://smart.zeniq.net/) and [zeniq.dev](https://www.zeni
 ### Back end
 - Trufflesuite (Javascript) https://trufflesuite.com/
 - Contract Generator: https://wizard.openzeppelin.com/
+- Contracts Wizard: https://docs.openzeppelin.com/contracts/4.x/wizard
 
 ## Further references
 - https://github.com/zeniqsmart/
