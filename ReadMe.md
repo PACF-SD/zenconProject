@@ -6,9 +6,11 @@ See [smart.zeniq.net](https://smart.zeniq.net/) and [zeniq.dev](https://www.zeni
 
 ## Developemnt tools
 ### Front end
-[FlutterFlow](https://flutterflow.io/)
+- [FlutterFlow](https://flutterflow.io/)
 ### Back end
-
+- Trufflesuite (Javascript) https://trufflesuite.com/
+## Further references
+- https://github.com/zeniqsmart/zencon-contract-examples
 
 ## Project page
 https://platform.zencon.bemyapp.com/#/projects/626e22fc878717003d6a1d67
