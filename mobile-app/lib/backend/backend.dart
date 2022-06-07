@@ -11,6 +11,7 @@ import 'schema/transaction_categories_record.dart';
 import 'schema/budgets_record.dart';
 import 'schema/user_list_record.dart';
 import 'schema/budget_list_record.dart';
+import 'schema/projects_z_record.dart';
 import 'schema/serializers.dart';
 
 export 'dart:async' show StreamSubscription;
@@ -25,6 +26,7 @@ export 'schema/transaction_categories_record.dart';
 export 'schema/budgets_record.dart';
 export 'schema/user_list_record.dart';
 export 'schema/budget_list_record.dart';
+export 'schema/projects_z_record.dart';
 
 /// Functions to query UsersRecords (as a Stream and as a Future).
 Stream<List<UsersRecord>> queryUsersRecord({
@@ -321,6 +323,48 @@ Future<FFFirestorePage<BudgetListRecord>> queryBudgetListRecordPage({
       isStream: isStream,
     );
 
+/// Functions to query ProjectsZRecords (as a Stream and as a Future).
+Stream<List<ProjectsZRecord>> queryProjectsZRecord({
+  Query Function(Query) queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollection(
+      ProjectsZRecord.collection,
+      ProjectsZRecord.serializer,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+Future<List<ProjectsZRecord>> queryProjectsZRecordOnce({
+  Query Function(Query) queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollectionOnce(
+      ProjectsZRecord.collection,
+      ProjectsZRecord.serializer,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+Future<FFFirestorePage<ProjectsZRecord>> queryProjectsZRecordPage({
+  Query Function(Query) queryBuilder,
+  DocumentSnapshot nextPageMarker,
+  int pageSize,
+  bool isStream,
+}) =>
+    queryCollectionPage(
+      ProjectsZRecord.collection,
+      ProjectsZRecord.serializer,
+      queryBuilder: queryBuilder,
+      nextPageMarker: nextPageMarker,
+      pageSize: pageSize,
+      isStream: isStream,
+    );
+
 Stream<List<T>> queryCollection<T>(Query collection, Serializer<T> serializer,
     {Query Function(Query) queryBuilder,
     int limit = -1,
@@ -410,13 +454,13 @@ Future<FFFirestorePage<T>> queryCollectionPage<T>(
 
 // Creates a Firestore document representing the logged in user if it doesn't yet exist
 Future maybeCreateUser(User user) async {
-  final userRecord = UserListRecord.collection.doc(user.uid);
+  final userRecord = UsersRecord.collection.doc(user.uid);
   final userExists = await userRecord.get().then((u) => u.exists);
   if (userExists) {
     return;
   }
 
-  final userData = createUserListRecordData(
+  final userData = createUsersRecordData(
     email: user.email,
     displayName: user.displayName,
     photoUrl: user.photoURL,

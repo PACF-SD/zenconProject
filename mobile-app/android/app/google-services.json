@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "412115047512",
+    "project_id": "tora-2a80b",
+    "storage_bucket": "tora-2a80b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412115047512:android:bac284a73767336bc0662d",
+        "android_client_info": {
+          "package_name": "com.flutterflow.finwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412115047512-3tukel0me90igcl5i3ivr3m96odcfu3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABKk-N1et4c-Tslub7tum5BSJMpkUQOg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412115047512-3tukel0me90igcl5i3ivr3m96odcfu3k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "412115047512-m5lfva6hssgqemuddv7qam5cj01u8b2k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.finwallet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

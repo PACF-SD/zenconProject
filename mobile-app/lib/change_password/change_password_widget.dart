@@ -83,7 +83,7 @@ class _ChangePasswordWidgetState extends State<ChangePasswordWidget> {
                     children: [
                       Expanded(
                         child: Text(
-                          'Enter the email associated with your account and we will send you link to reset your password.',
+                          'Enter the email associated with your account and we will send you a link to reset your password.',
                           style: FlutterFlowTheme.of(context).bodyText1,
                         ),
                       ),

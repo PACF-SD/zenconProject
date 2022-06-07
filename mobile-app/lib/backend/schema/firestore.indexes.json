@@ -13,20 +13,6 @@
           "order": "DESCENDING"
         }
       ]
-    },
-    {
-      "collectionGroup": "transactions",
-      "queryScope": "COLLECTION",
-      "fields": [
-        {
-          "fieldPath": "user",
-          "order": "ASCENDING"
-        },
-        {
-          "fieldPath": "transactionTime",
-          "order": "DESCENDING"
-        }
-      ]
     }
   ]
 }
